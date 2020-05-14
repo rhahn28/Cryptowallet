@@ -13,10 +13,11 @@ The wallet contain a send_txn function that signs the transctions and broadcasts
 ## ETH example
 
 The following code uses the first two derived address from hd-wallet-derive. The same addresses can be derived using the same seed phrase on BIP 44. 
-'''
+
+```
 account_one = priv_key_to_account(ETH, coins[ETH][0]['privkey'])
 account_two = priv_key_to_account(ETH, coins[ETH][1]['privkey'])
-'''
+```
 
 If running geth locally, spin up at least two nodes and confirm that both are mining as below. Make sure you are running on your custom chain with the desired chainId.
 
@@ -34,10 +35,11 @@ Copy the hash into the TX Status in MyCrypto and note the successful transfer on
 ## BTCTEST example
 
 The following code uses the first two derived address from hd-wallet-derive. The same addresses can be derived using the same seed phrase on BIP 44. 
-'''
+
+```
 account_one = priv_key_to_account(BTCTEST, coins[BTCTEST][0]['privkey'])
 account_two = priv_key_to_account(BTCTEST, coins[BTCTEST][1]['privkey'])
-'''
+```
 
 The addresse can be printed and examined by indexing the resulting object.
 
