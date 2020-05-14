@@ -1,4 +1,4 @@
-![image](QClogo.png)
+![image](wallet.PNG)
 
 # Wallet Documentation
 
@@ -20,15 +20,15 @@ account_two = priv_key_to_account(ETH, coins[ETH][1]['privkey'])
 
 If running geth locally, spin up at least two nodes and confirm that both are mining as below. Make sure you are running on your custom chain with the desired chainId.
 
-![image](gethminers.png)
+![image](gethminers.PNG)
 
 Now, send a transction through Mycryto first. Due to a bug, the code will not run on an empty run chain. Sending eth via MyCrypto first, ensures, there is something on the chain before using the wallet. Then, use send_txn to send ether between account one and account two. Here, we are sending 402 wei. Make use to note the txn id, which will be returned in a dictionary for key "hash'.
 
-![image](402_jl.png)
+![image](402_jl.PNG)
 
 Copy the hash into the TX Status in MyCrypto and note the successful transfer on your chain.
 
-![image](402_mycrypto.png)
+![image](402_mycrypto.PNG)
 
 
 ## BTCTEST example
@@ -41,8 +41,8 @@ account_two = priv_key_to_account(BTCTEST, coins[BTCTEST][1]['privkey'])
 
 The addresse can be printed and examined by indexing the resulting object.
 
-![image](btc_screen_capture_addresses.png)
+![image](btc_screen_capture_addresses.PNG)
 
 Transfer BTCTEST between the two accounts using the create_txn and send_txn functions.
 
-![image](btc_screen_capture.png)
+![image](btc_screen_capture.PNG)
