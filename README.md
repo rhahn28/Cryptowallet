@@ -1,4 +1,4 @@
-![image](wallet.PNG)
+![image](wallet.png)
 
 # Wallet Documentation
 
