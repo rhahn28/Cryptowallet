@@ -1,6 +1,8 @@
 ![image](wallet.png)
 
 # Wallet Documentation
+By Roger C. Hahn
+
 
 This wallet creates Hierarchical Deterministic Wallets (or HD wallets for short) based on BIP 44 standard. Using hd-wallet-derive, addresses can be derived for any coin. The wallet can support multiple coins based a single seed phrase. As such, the wallet can hold as many coins as desired. 
 
@@ -48,3 +50,5 @@ The addresse can be printed and examined by indexing the resulting object.
 Transfer BTCTEST between the two accounts using the create_txn and send_txn functions.
 
 ![image](btc_screen_capture.PNG)
+
+Roger C. Hahn ©
